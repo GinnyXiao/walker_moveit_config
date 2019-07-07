@@ -1,0 +1,16 @@
+controller_list:
+  - name: fake_right_arm_controller
+    joints:
+      - right_limb_j1
+      - right_limb_j2
+      - right_limb_j3
+      - right_limb_j4
+      - right_limb_j5
+      - right_limb_j6
+      - right_limb_j7
+  - name: fake_right_hand_controller
+    joints:
+      - right_index_j1
+      - right_middle_j1
+      - right_ring_j1
+      - right_thumb_j1
