@@ -14,3 +14,18 @@ controller_list:
       - right_middle_j1
       - right_ring_j1
       - right_thumb_j1
+  - name: fake_left_arm_controller
+    joints:
+      - left_limb_j1
+      - left_limb_j2
+      - left_limb_j3
+      - left_limb_j4
+      - left_limb_j5
+      - left_limb_j6
+      - left_limb_j7
+  - name: fake_left_hand_controller
+    joints:
+      - left_index_j1
+      - left_middle_j1
+      - left_ring_j1
+      - left_thumb_j1

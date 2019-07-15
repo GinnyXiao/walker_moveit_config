@@ -31,6 +31,28 @@
         <joint name="right_thumb_j1" />
         <joint name="right_thumb_j2" />
     </group>
+    <group name="left_arm">
+        <joint name="left_limb_j1" />
+        <joint name="left_limb_j2" />
+        <joint name="left_limb_j3" />
+        <joint name="left_limb_j4" />
+        <joint name="left_limb_j5" />
+        <joint name="left_limb_j6" />
+        <joint name="left_limb_j7" />
+    </group>
+    <group name="left_hand">
+        <joint name="left_palm_joint" />
+        <joint name="left_index_j1" />
+        <joint name="left_index_j2" />
+        <joint name="left_middle_j1" />
+        <joint name="left_middle_j2" />
+        <joint name="left_pinky_j1" />
+        <joint name="left_pinky_j2" />
+        <joint name="left_ring_j1" />
+        <joint name="left_ring_j2" />
+        <joint name="left_thumb_j1" />
+        <joint name="left_thumb_j2" />
+    </group>
     <!--GROUP STATES: Purpose: Define a named state for a particular group, in terms of joint values. This is useful to define states like 'folded arms'-->
     <group_state name="testing_pose" group="right_arm">
         <joint name="right_limb_j1" value="-0.0993" />
@@ -43,6 +65,7 @@
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="right_hand" parent_link="right_limb_l7" group="right_hand" parent_group="right_arm" />
+    <end_effector name="left_hand" parent_link="left_limb_l7" group="left_hand" parent_group="left_arm" />
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
     <disable_collisions link1="back_wheel_link" link2="base_link" reason="Never" />
     <disable_collisions link1="back_wheel_link" link2="camera_link" reason="Never" />
