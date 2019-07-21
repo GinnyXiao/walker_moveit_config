@@ -63,6 +63,24 @@
         <joint name="right_limb_j6" value="0.2062" />
         <joint name="right_limb_j7" value="0.1247" />
     </group_state>
+    <group_state name="home_right" group="right_arm">
+        <joint name="right_limb_j1" value="-0.736" />
+        <joint name="right_limb_j2" value="-1.052" />
+        <joint name="right_limb_j3" value="0.243" />
+        <joint name="right_limb_j4" value="-0.807" />
+        <joint name="right_limb_j5" value="0.2405" />
+        <joint name="right_limb_j6" value="0.017" />
+        <joint name="right_limb_j7" value="0.133" />
+    </group_state>
+    <group_state name="home_left" group="left_arm">
+        <joint name="left_limb_j1" value="0.736" />
+        <joint name="left_limb_j2" value="-1.052" />
+        <joint name="left_limb_j3" value="-0.243" />
+        <joint name="left_limb_j4" value="-0.807" />
+        <joint name="left_limb_j5" value="-0.2405" />
+        <joint name="left_limb_j6" value="0.017" />
+        <joint name="left_limb_j7" value="0.133" />
+    </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="right_hand" parent_link="right_limb_l7" group="right_hand" parent_group="right_arm" />
     <end_effector name="left_hand" parent_link="left_limb_l7" group="left_hand" parent_group="left_arm" />
